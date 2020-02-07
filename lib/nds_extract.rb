@@ -9,7 +9,7 @@ row = 0
     total = 0 
       while col < directors_database[row][:movies].length
         total += directors_database[row][:movies][col][:worldwide_gross]
-        
+        key = directors_database[row][:name]
         col += 1 
       end 
   
